@@ -1,0 +1,123 @@
+
+.Modal {
+  background-color: #1d1e22;
+  display: flex;
+  height: 70%;
+  width: 70%;
+  margin: auto;
+  margin-top: 5%;
+  border-radius: 25px;
+  flex: 1;
+  flex-direction: column;
+
+  /* border-width: 5px;
+  border-style: solid;
+  border-color: #1fe900; */
+}
+
+.Modal-header {
+  /* width: 100%; */
+  flex: 0.05;
+
+  /* border-width: 5px;
+  border-style: solid;
+  border-color: #00afe9; */
+
+}
+
+.Modal-btn {
+  background-color: #fa0000;
+  border-radius: 35px;
+  height: 20px;
+  width: 20px;
+  margin-left: 97%;
+  margin-top: 1%;
+}
+
+.Modal-content {
+  flex: 0.95;
+  border-radius: 0 0 25px 25px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  /* border-width: 5px;
+  border-style: solid;
+  border-color: #e90000; */
+}
+
+.Modal-img {
+  border-radius: 35px;
+  width: 40%;
+  
+  
+  /* border-width: 5px;
+  border-style: solid;
+  border-color: #e9b300; */
+}
+
+.Modal-content-txt {
+  border-radius: 35px;
+  width: 40%;
+  flex-direction: column;
+  display: flex;
+
+  /* border-width: 5px;
+  border-style: solid;
+  border-color: #e9b300; */
+}
+
+.Modal-txt {
+  font-size: 20px;
+  color: #9b00a9;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.Modal-button-buy {
+  /* background-color: #1fe900;
+  border-radius: 35px; */
+  /* width: 100px; */
+  /* align-self: center; */
+
+  width: 250px;
+  border-radius: 50px;
+  height: 60px;
+  position: relative;
+  border: none;
+  color: #fff;
+  background: #1d1e22;
+  font-size: 1.7rem;
+  font-weight: 700;
+  display: block;
+  cursor: pointer;
+}
+
+/* .Modal-button-buy::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, #ff8038 0%, #ff0099 33%, #00ebeb 70%, #db00ff 100%);
+  width: 260px;
+  background-size: 1500% 1500%;
+  height: 70px;
+  transform: translate(-5px, -5px);
+  border-radius: 50px;
+  z-index: -1;
+  animation: animation 4s ease infinite;
+} */
+/* @keyframes animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */

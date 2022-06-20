@@ -1,0 +1,41 @@
+.roadmap {
+    margin-top: 20px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.step {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    align-items: center;
+    padding: 8px;
+}
+
+.step-circle {
+    min-height: 80px;
+    min-width: 80px;
+    border: solid;
+    border-color: black;
+    border-radius: 100%;
+    border-width: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+
+}
+
+.step-txt {
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    margin-left: 16px;
+}
+
